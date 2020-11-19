@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#DC143C"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="MAMTA RESTAURANT"
+        android:background="#FFD700"
+        android:textColor="#FF4500"
+        android:textStyle="bold"
+        android:paddingLeft="97dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        />
+    <ImageView
+        android:src="@drawable/mamta"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="CONTACT  ->  Mobile Number - +91 9122464544"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="ADDRESS  ->   NH-31,Barauni-Purnea Hwy,Khagaria,Bihar."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOUR OF OPERATION ->  mon-sun, 8am-11pm(IST)"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:textSize="13sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+</LinearLayout>
